@@ -4,7 +4,7 @@
 
 > Search for the file in location like `C:\Users\<username>\AppData\Local\Packages\<CanonicalGroupLimited.Ubuntu-16.04onWindows_79rhkp1fndgsc>\LocalState` .<br>
 >
- If you are trying to recover after a windows reset, search the above path in `C:\Windows.old` folder instead of `C:` directory : `C:\Windows.old\Users\<username>\AppData\Local\Packages\<CanonicalGroupLimited.Ubuntu-16.04onWindows_79rhkp1fndgsc>\LocalState` .
+ If you are trying to recover after a windows reset, search the above path in `C:\Windows.old` folder instead of `C:` directory :<br>`C:\Windows.old\Users\<username>\AppData\Local\Packages\<CanonicalGroupLimited.Ubuntu-16.04onWindows_79rhkp1fndgsc>\LocalState` .
 
 > First double click the `ext4.vhdx` file. See that the disk shows up as online and initialized in `Disk Management`. If not, initialize the disk (right-click and see).
 
@@ -43,8 +43,8 @@ Try mounting again. If it fails, note the block numbers returned by above comman
 Run as _root user_ the following instructions from [3]:
 
 > `wget https://sourceforge.net/projects/e2fsprogs/files/e2fsprogs/v1.46.5/e2fsprogs-1.46.5.tar.gz`<br>
-  `tar xzf e2fsprogs*`
-  `cd e2fsprogs-1.46.5/`
+  `tar xzf e2fsprogs*`<br>
+  `cd e2fsprogs-1.46.5/`<br>
   `./configure && make && make install`
 
 
