@@ -1,2 +1,3 @@
-# Linux-functions
-Custom functions written to ease my working with linux
+# Linux and WSL
+
+My problems and solutions while using Linux and WSL
