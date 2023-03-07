@@ -9,3 +9,8 @@ traceroute 8.8.8.8
 # Run arp to find MAC addresses
 arp -a    # or
 arp
+
+## OR ##
+
+# Try iwconfig
+iwconfig
